@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.rb-header {
+  width: 100vw;
+  height: 7rem;
+  border: 1px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.rb-header ul {
+  display: flex;
+  list-style: none;
+  margin: 0 5em 0 5em;
+}
+
+.rb-header ul li {
+  padding: 2em;
+}
