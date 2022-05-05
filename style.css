@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap");
+
 * {
   margin: 0;
   padding: 0;
@@ -5,19 +7,56 @@
 
 .rb-header {
   width: 100vw;
-  height: 7rem;
+  height: 6rem;
   border: 1px solid black;
   display: flex;
   align-items: center;
   justify-content: space-between;
+  font-family: Roboto, sans-serif;
 }
 
 .rb-header ul {
   display: flex;
   list-style: none;
   margin: 0 5em 0 5em;
+  /* border: 1px solid black; */
 }
 
-.rb-header ul li {
-  padding: 2em;
+.rb-header ul div {
+  display: flex;
+  /* border: 1px solid black; */
+}
+
+.rb-combo-logo {
+  width: 50px;
+  margin: 0;
+  padding: 0;
+  /* border: 1px solid black; */
+}
+
+.rb-left-head {
+  border-right: 0.1px solid grey;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 0.5em 0 0;
+}
+
+.rb-left-head li {
+  padding: 0 0.5em 0 0;
+}
+
+.rb-right-head li {
+  padding: 0 0 0 0.5em;
+}
+
+.rb-right-head {
+  /* border: 1px solid black; */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.rb-logo-part li {
+  padding: 1em;
 }
