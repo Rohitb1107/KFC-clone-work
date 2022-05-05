@@ -107,3 +107,36 @@
   transform: translate(-50%, -50%);
   font-size: 5rem;
 }
+
+/* Deals card section css */
+
+.rb-card-section {
+  margin: auto;
+  width: 70%;
+  border: 1px solid black;
+  position: relative;
+  margin-top: 5em;
+}
+
+.rb-card-heading {
+  font-size: 2rem;
+}
+
+.rb-two-card-section {
+  margin-top: 5em;
+  display: flex;
+}
+
+.rb-first-card {
+  border: 1px solid black;
+  position: relative;
+  text-align: center;
+  color: white;
+}
+.rb-first-card-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 1.1em;
+}
