@@ -90,7 +90,7 @@
 
 .rb-hero-img-section {
   width: 100vw;
-  border: 1px solid black;
+  /* border: 1px solid black; */
   position: relative;
   text-align: center;
   color: white;
@@ -113,7 +113,7 @@
 .rb-card-section {
   margin: auto;
   width: 70%;
-  border: 1px solid black;
+  /* border: 1px solid black; */
   position: relative;
   margin-top: 5em;
 }
@@ -128,12 +128,35 @@
 }
 
 .rb-first-card {
-  border: 1px solid black;
+  /* border: 1px solid black; */
   position: relative;
   text-align: center;
   color: white;
 }
 .rb-first-card-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 1.1em;
+}
+
+.rb-red-card {
+  background-color: #e4002b;
+  width: 35vh;
+  height: 95%;
+  border-radius: 10px;
+  margin-left: 2em;
+  margin-top: 0.2em;
+}
+
+.rb-second-card {
+  /* border: 1px solid black; */
+  position: relative;
+  text-align: center;
+  color: white;
+}
+.rb-second-card-text {
   position: absolute;
   top: 50%;
   left: 50%;
