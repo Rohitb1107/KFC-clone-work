@@ -3,19 +3,7 @@ import "./Modal.css";
 // import "../App.css";
 import { Link } from "react-router-dom";
 
-function Modal3(props) {
-  const [name, setName] = useState("");
-  const [headText, setHeadText] = useState("");
-
-  function onChange(e) {
-    setName(e.target.value);
-  }
-
-  function onSubmit(e) {
-    e.preventDefault();
-    setHeadText(name);
-  }
-
+function Modal3() {
   return (
     <div className="modalBackground">
       <div className="modalContainer">
@@ -39,7 +27,7 @@ function Modal3(props) {
 
           <div className="order-type">
             <p>YOUR LOCATION</p>
-            <p>{props.headText}</p>
+            <p>Jaipur</p>
           </div>
 
           <div className="order-type">
@@ -48,7 +36,9 @@ function Modal3(props) {
           </div>
         </div>
         <div className="btn-div-3">
-          <button className="confirm-btn-3">Confirm</button>
+          <Link to={`/`}>
+            <button className="confirm-btn-3">Confirm</button>
+          </Link>
         </div>
       </div>
     </div>

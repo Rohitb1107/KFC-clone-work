@@ -11,8 +11,6 @@ import Modal2 from "./Components/Modal2";
 import Modal3 from "./Components/Modal3";
 
 function App() {
-  // const [count, setCount] = useState(0);
-
   return (
     <>
       {/* <Deals /> */}

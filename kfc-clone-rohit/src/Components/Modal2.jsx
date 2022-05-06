@@ -3,7 +3,7 @@ import "./Modal.css";
 // import "../App.css";
 import { Link } from "react-router-dom";
 
-function Modal2({ closeModal }) {
+function Modal2() {
   const [name, setName] = useState("");
   const [headText, setHeadText] = useState("");
 
@@ -41,10 +41,15 @@ function Modal2({ closeModal }) {
             value={name}
           />
           <button className="confirm-btn" onClick={onSubmit}>
-            <Link to={`/deals/modal3`}>Confirm</Link>
+            Confirm
           </button>
         </div>
         <div className="order-place-div">{headText}</div>
+        <div className="next-btn-div">
+          <Link to={`/deals/modal3`}>
+            <button className="next-btn">Next</button>
+          </Link>
+        </div>
       </div>
     </div>
   );

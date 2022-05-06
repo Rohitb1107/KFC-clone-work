@@ -7,13 +7,13 @@ const Navbar = () => {
         <ul>
           <div className="rb-logo-part">
             <li>
-              <a href="#">
+              <Link to={`/`}>
                 <img
                   src="https://online.kfc.co.in/static/media/kfcLogo.492728c6.svg"
                   alt=""
                   srcset=""
                 />
-              </a>
+              </Link>
             </li>
             <li>Menu</li>
             <li>

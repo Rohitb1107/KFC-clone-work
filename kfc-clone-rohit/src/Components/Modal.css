@@ -152,3 +152,22 @@
   justify-content: center;
   margin-top: 3em;
 }
+.deal-btn {
+  border: 0;
+  background: none;
+  font-size: 1.1em;
+}
+.next-btn-div {
+  display: flex;
+  justify-content: center;
+  margin-top: 12em;
+}
+
+.next-btn {
+  width: 8rem;
+  height: 2.6rem;
+  border-radius: 25px;
+  border: 0;
+  background-color: black;
+  color: white;
+}
