@@ -36,15 +36,18 @@ function Modal({ closeModal }) {
             <p>Delivery</p>
           </div>
 
-          <div className="your-location">
-            <p>ORDER TYPE</p>
-            <p>Delivery</p>
+          <div className="order-type">
+            <p>YOUR LOCATION</p>
+            <p>Jaipur</p>
           </div>
 
-          <div className="schedule-order">
-            <p>ORDER TYPE</p>
-            <p>Delivery</p>
+          <div className="order-type">
+            <p>SCHEDULE FOR YOUR ORDER</p>
+            <p>Today</p>
           </div>
+        </div>
+        <div className="btn-div-3">
+          <button className="confirm-btn-3">Confirm</button>
         </div>
       </div>
     </div>
