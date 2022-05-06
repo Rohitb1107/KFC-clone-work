@@ -4,6 +4,7 @@ import "./App.css";
 import Navbar from "./Components/Navbar";
 import Deals from "./Components/Deals";
 import Modal1 from "./Components/Modal1";
+import Modal2 from "./Components/Modal2";
 
 function App() {
   // const [count, setCount] = useState(0);
@@ -12,7 +13,8 @@ function App() {
     <>
       {/* <Navbar />
       <Deals /> */}
-      <Modal1 />
+      {/* <Modal1 /> */}
+      <Modal2 />
     </>
   );
 }

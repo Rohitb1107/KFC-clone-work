@@ -8,6 +8,10 @@
   align-items: center;
 }
 
+.titleCloseBtn {
+  border-bottom: 1px solid black;
+}
+
 .modalContainer {
   width: 55%;
   height: 70vh;
@@ -23,6 +27,7 @@
   /* display: inline-block; */
   text-align: center;
   margin-top: 10px;
+  margin-bottom: 20px;
 }
 
 /* .titleCloseBtn {
@@ -38,22 +43,24 @@
 }
 
 .modalContainer .body {
-  flex: 50%;
+  /* flex: 50%; */
   display: flex;
   justify-content: center;
   align-items: center;
   font-size: 1.7rem;
   text-align: center;
+  margin-top: 2em;
+  font-size: 2.5rem;
 }
 
-.modalContainer .footer {
+/* .modalContainer .footer {
   flex: 20%;
   display: flex;
   justify-content: center;
   align-items: center;
-}
+} */
 
-.modalContainer .footer button {
+/* .modalContainer .footer button {
   width: 150px;
   height: 45px;
   margin: 10px;
@@ -63,24 +70,47 @@
   border-radius: 8px;
   font-size: 20px;
   cursor: pointer;
-}
+} */
 
-#cancelBtn {
+/* #cancelBtn {
   background-color: crimson;
-}
+} */
 
 .btn-div {
   display: flex;
   flex-direction: column;
-  gap: 1rem;
+  gap: 2.5rem;
   justify-content: center;
   align-items: center;
+  margin-top: 5em;
 }
 
 .btn-div button {
-  width: 22rem;
+  width: 25rem;
   height: 2.5rem;
   border-radius: 50px;
   border: 0;
   border: 1px solid black;
+}
+
+/* 2nd modal */
+
+#address-text {
+  width: 35rem;
+  height: 2.5rem;
+  border-radius: 25px;
+  border: 0;
+  border: 1px solid grey;
+}
+
+.confirm-btn {
+  width: 8rem;
+  height: 2.6rem;
+  border-radius: 25px;
+  border: 0;
+}
+
+.body-2{
+    display: flex;
+    gap: 0.3em;
 }
