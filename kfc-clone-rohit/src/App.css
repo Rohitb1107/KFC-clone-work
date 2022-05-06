@@ -4,6 +4,7 @@
   margin: 0;
   padding: 0;
   font-family: Roboto, sans-serif;
+  color: black;
 }
 
 /* Header part css */
@@ -158,8 +159,41 @@
 }
 .rb-second-card-text {
   position: absolute;
-  top: 50%;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 1.3em;
+}
+
+.rb-first-card-btn {
+  position: absolute;
+  top: 70%;
   left: 50%;
   transform: translate(-50%, -50%);
   font-size: 1.1em;
 }
+
+.first-card-btn {
+  background-color: transparent;
+  border: 2px solid white;
+}
+
+.first-card-btn:hover {
+  background-color: white;
+  color: black;
+  border: 2px solid white;
+}
+
+.second-card-btn:hover {
+  background-color: white;
+  color: black;
+  border: 2px solid white;
+}
+
+.second-card-btn {
+  background-color: transparent;
+  border: 2px solid white;
+}
+
+/* Modal section css */
+

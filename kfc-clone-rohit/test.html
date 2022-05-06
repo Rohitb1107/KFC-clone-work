@@ -1,0 +1,77 @@
+<div
+  class="modal-content"
+  tabindex="-1"
+  aria-labelledby="dispostion_selector"
+  role="dialog"
+>
+  <div class="modal-header">
+    <h2 class="header-title" id="dispostion_selector">START YOUR ORDER</h2>
+    <button
+      type="button"
+      class="custom-modal-close"
+      data-dismiss="modal"
+      aria-label="Back"
+      data-testid="disposition-close-handler"
+    >
+      <img
+        src="/static/media/PopupCloseBtn.ee8133ae.svg"
+        alt="Close OFFERS &amp; DEALS dialog"
+      />
+    </button>
+  </div>
+  <div class="modal-body">
+    <div class="disposition-module-form" data-testid="disposition-component">
+      <h3 class="content-text" data-testid="contenttext-component">
+        How would you like to receive your order?
+      </h3>
+      <div role="alert" class="info-text" data-testid="info-component">
+        <span></span>
+      </div>
+      <form class="form" data-testid="form-component">
+        <section class="form__section">
+          <div class="order-button-section">
+            <ul class="order-button-section-ul">
+              <li class="false">
+                <button
+                  class="button whiteButton order-type-button"
+                  role="button"
+                  aria-label="order type Pick up"
+                  id="DispositionModuleFormSubmit"
+                  type="submit"
+                  data-testid="disposition-order-click-handler-Disposition - Pickup"
+                >
+                  Pick up
+                </button>
+              </li>
+              <li class="false">
+                <button
+                  class="button whiteButton order-type-button"
+                  role="button"
+                  aria-label="order type Dine In"
+                  id="DispositionModuleFormSubmit"
+                  type="submit"
+                  data-testid="disposition-order-click-handler-Disposition - Dine in"
+                >
+                  Dine In
+                </button>
+              </li>
+              <li class="false">
+                <button
+                  class="button whiteButton order-type-button"
+                  role="button"
+                  aria-label="order type Delivery"
+                  id="DispositionModuleFormSubmit"
+                  type="submit"
+                  data-testid="disposition-order-click-handler-Disposition - Delivery"
+                >
+                  Delivery
+                </button>
+              </li>
+            </ul>
+          </div>
+          <div class="clearfix"></div>
+        </section>
+      </form>
+    </div>
+  </div>
+</div>

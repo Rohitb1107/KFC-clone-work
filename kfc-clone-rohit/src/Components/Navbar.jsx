@@ -1,9 +1,9 @@
 const Navbar = () => {
   return (
     <>
-      <div class="rb-header">
+      <div className="rb-header">
         <ul>
-          <div class="rb-logo-part">
+          <div className="rb-logo-part">
             <li>
               <a href="#">
                 <img
@@ -18,7 +18,7 @@ const Navbar = () => {
           </div>
         </ul>
         <ul>
-          <div class="rb-left-head">
+          <div className="rb-left-head">
             <li>
               <a href="#">
                 <img
@@ -30,12 +30,12 @@ const Navbar = () => {
             </li>
             <li>Sign In</li>
           </div>
-          <div class="rb-right-head">
+          <div className="rb-right-head">
             <li>₹ 0</li>
             <li>
               <a href="#">
                 <img
-                  class="rb-combo-logo"
+                  className="rb-combo-logo"
                   src="https://images.ctfassets.net/wtodlh47qxpt/6qtBVFuno7pdwOQ9RIvYm9/d13e9b7242980972cf49beddde2cc295/bucket_cart_icon.svg"
                   alt=""
                   srcset=""
