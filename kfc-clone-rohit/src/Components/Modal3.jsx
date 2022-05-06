@@ -20,7 +20,7 @@ function Modal({ closeModal }) {
       <div className="modalContainer">
         <div className="titleCloseBtn">
           <div className="title">
-            <h1>DELIVERY ADDRESS</h1>
+            <h1>SCHEDULE ORDER</h1>
           </div>
           {/* <button
             onClick={() => {
@@ -30,20 +30,22 @@ function Modal({ closeModal }) {
             X
           </button> */}
         </div>
-        <div className="body body-2">
-          <input
-            onChange={onChange}
-            type="text"
-            placeholder="Enter your delivery address"
-            name="address-text"
-            id="address-text"
-            value={name}
-          />
-          <button className="confirm-btn" onClick={onSubmit}>
-            Confirm
-          </button>
+        <div className="body-3">
+          <div className="order-type">
+            <p>ORDER TYPE</p>
+            <p>Delivery</p>
+          </div>
+
+          <div className="your-location">
+            <p>ORDER TYPE</p>
+            <p>Delivery</p>
+          </div>
+
+          <div className="schedule-order">
+            <p>ORDER TYPE</p>
+            <p>Delivery</p>
+          </div>
         </div>
-        <div className="order-place-div">{headText}</div>
       </div>
     </div>
   );

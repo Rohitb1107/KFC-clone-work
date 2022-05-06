@@ -6,6 +6,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  color: black;
 }
 
 .titleCloseBtn {
@@ -101,6 +102,7 @@
   border-radius: 25px;
   border: 0;
   border: 1px solid grey;
+  padding-left: 1em;
 }
 
 .confirm-btn {
@@ -110,7 +112,14 @@
   border: 0;
 }
 
-.body-2{
-    display: flex;
-    gap: 0.3em;
+.body-2 {
+  display: flex;
+  gap: 0.3em;
 }
+
+.order-place-div {
+  margin: 3em 0 0 5.5em;
+  font-size: 2rem;
+}
+
+/* Modal 3rd css */

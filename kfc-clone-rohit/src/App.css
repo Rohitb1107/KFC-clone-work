@@ -4,7 +4,7 @@
   margin: 0;
   padding: 0;
   font-family: Roboto, sans-serif;
-  color: black;
+  /* color: black; */
 }
 
 /* Header part css */
@@ -196,4 +196,3 @@
 }
 
 /* Modal section css */
-

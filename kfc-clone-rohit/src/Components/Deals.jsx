@@ -7,6 +7,8 @@ const Deals = () => {
 
   return (
     <>
+      {openModal && <Modal1 closeModal={setOpenModal} />}
+
       <div className="rb-deals-hero-part">
         <p>LET'S ORDER FOR DELIVERY, PICK UP, OR DINE-IN</p>
         <button className="rb-hero-btn">Start order</button>
@@ -40,7 +42,7 @@ const Deals = () => {
               >
                 Find a KFC
               </button>
-              {openModal && <Modal1 closeModal={setOpenModal} />}
+
               {/* <Modal1 /> */}
             </div>
           </div>
