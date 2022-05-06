@@ -1,8 +1,9 @@
 import React, { useState } from "react";
-import "./Modal1.css";
+import "./Modal.css";
 // import "../App.css";
+import { Link } from "react-router-dom";
 
-function Modal({ closeModal }) {
+function Modal2({ closeModal }) {
   const [name, setName] = useState("");
   const [headText, setHeadText] = useState("");
 
@@ -40,7 +41,7 @@ function Modal({ closeModal }) {
             value={name}
           />
           <button className="confirm-btn" onClick={onSubmit}>
-            Confirm
+            <Link to={`/deals/modal3`}>Confirm</Link>
           </button>
         </div>
         <div className="order-place-div">{headText}</div>
@@ -49,4 +50,4 @@ function Modal({ closeModal }) {
   );
 }
 
-export default Modal;
+export default Modal2;

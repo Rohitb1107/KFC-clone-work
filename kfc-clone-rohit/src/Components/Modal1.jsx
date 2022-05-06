@@ -1,8 +1,10 @@
 import React from "react";
-import "./Modal1.css";
+import "./Modal.css";
 // import "../App.css";
+import { Link } from "react-router-dom";
 
-function Modal({ closeModal }) {
+
+function Modal1({ closeModal }) {
   return (
     <div className="modalBackground">
       <div className="modalContainer">
@@ -24,11 +26,13 @@ function Modal({ closeModal }) {
         <div className="btn-div">
           <button>Pick Up</button>
           <button>Dine in</button>
-          <button>Delivery</button>
+          <Link to={`/deals/modal2`}>
+            <button>Delivery</button>
+          </Link>
         </div>
       </div>
     </div>
   );
 }
 
-export default Modal;
+export default Modal1;

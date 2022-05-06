@@ -1,8 +1,9 @@
 import React, { useState } from "react";
-import "./Modal1.css";
+import "./Modal.css";
 // import "../App.css";
+import { Link } from "react-router-dom";
 
-function Modal({ closeModal }) {
+function Modal3(props) {
   const [name, setName] = useState("");
   const [headText, setHeadText] = useState("");
 
@@ -38,7 +39,7 @@ function Modal({ closeModal }) {
 
           <div className="order-type">
             <p>YOUR LOCATION</p>
-            <p>Jaipur</p>
+            <p>{props.headText}</p>
           </div>
 
           <div className="order-type">
@@ -54,4 +55,4 @@ function Modal({ closeModal }) {
   );
 }
 
-export default Modal;
+export default Modal3;

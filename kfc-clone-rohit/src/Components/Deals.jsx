@@ -1,13 +1,19 @@
 import Modal1 from "./Modal1";
 import React, { useState } from "react";
 import "../App.css";
+import Navbar from "./Navbar";
+import { Link } from "react-router-dom";
 
 const Deals = () => {
   const [openModal, setOpenModal] = useState(false);
 
+  var heroImg =
+    "https://online.kfc.co.in/static/media/offer_deals_banner.777f20e1.svg";
   return (
     <>
       {openModal && <Modal1 closeModal={setOpenModal} />}
+
+      <Navbar />
 
       <div className="rb-deals-hero-part">
         <p>LET'S ORDER FOR DELIVERY, PICK UP, OR DINE-IN</p>
@@ -15,10 +21,7 @@ const Deals = () => {
       </div>
 
       <div className="rb-hero-img-section">
-        <img
-          src="https://online.kfc.co.in/static/media/offer_deals_banner.777f20e1.svg"
-          alt=""
-        />
+        <img src={heroImg} alt="" />
         <div className="rb-center-text">DEALS & OFFERS</div>
       </div>
 
@@ -34,14 +37,16 @@ const Deals = () => {
               SELECT A KFC TO SEE LOCAL OFFERS
             </div>
             <div className="rb-first-card-btn">
-              <button
-                className="rb-hero-btn first-card-btn"
-                onClick={() => {
-                  setOpenModal(true);
-                }}
-              >
-                Find a KFC
-              </button>
+              <Link to={`/deals/modal1`}>
+                <button
+                  className="rb-hero-btn first-card-btn"
+                  onClick={() => {
+                    setOpenModal(true);
+                  }}
+                >
+                  Find a KFC
+                </button>
+              </Link>
 
               {/* <Modal1 /> */}
             </div>
